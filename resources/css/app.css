@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Optional: styling tambahan kamu sendiri */
+@layer base {
+    body {
+        font-family: 'Inter', system-ui, sans-serif;
+    }
+}
