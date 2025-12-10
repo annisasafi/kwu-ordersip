@@ -50,3 +50,12 @@ Route::get('/terms', function () {
     return view('terms');
 });
 
+Route::get('/testimoni/comffee', function () {
+    return view('testimoni.comffee');
+})->name('testimoni.comffee');
+
+// Demo website Comffee
+Route::get('/demo/comffee', function () {
+    return view('demo.comffee');
+})->name('demo.comffee');
+ 

@@ -287,7 +287,8 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
             {{-- Paket Gratis --}}
             <div class="bg-white border border-[#E4C1AE] rounded-[30px] px-8 pt-8 pb-10 shadow-sm flex flex-col">
                 <div class="mb-8">
@@ -296,14 +297,15 @@
 
                     <div class="mt-6">
                         <p class="text-3xl font-bold text-[#570F0F]">Rp0</p>
+                        <p class="text-xs text-[#6B4423] mt-1">/Tahun</p>
                     </div>
                 </div>
 
-                <a href="https://wa.me/6287739094119?text=Halo%20OrderSip!%20Saya%20tertarik%20mencoba%20*Paket%20Gratis*.%20Saya%20ingin%20dibuatkan%20katalog%20online%20untuk%20usaha%20saya.%20Boleh%20bantu%20arahkan%20langkah%20selanjutnya%20ya%3F%20%F0%9F%98%8A"
-                    target="_blank"
-                    class="mx-auto mb-8 inline-flex items-center justify-center rounded-[999px]
-                            bg-[#570F0F] text-white text-xs font-semibold px-6 py-2">
-                        Mulai gratis sekarang
+                <a href="https://wa.me/6287739094119?text=Halo%20OrderSip!%20Saya%20tertarik%20mencoba%20*Paket%20Gratis*.%20Saya%20ingin%20dibuatkan%20katalog%20online%20untuk%20usaha%20saya.%20Mohon%20arahkan%20langkah%20selanjutnya%20ya%20😊"
+                target="_blank"
+                class="mx-auto mb-8 inline-flex items-center justify-center rounded-[999px]
+                        bg-[#570F0F] text-white text-xs font-semibold px-6 py-2">
+                    Mulai gratis sekarang
                 </a>
 
                 <div class="border-t border-[#EED7C5] pt-5 mt-auto">
@@ -315,6 +317,7 @@
                         <li>• Tampilan Standar</li>
                         <li>• Watermark “By OrderSip”</li>
                         <li>• Profil usaha sederhana</li>
+                        <li>• Support WhatsApp terbatas</li>
                     </ul>
                 </div>
             </div>
@@ -326,72 +329,113 @@
                     <p class="text-xs text-transparent">.</p>
 
                     <div class="mt-6">
-                        <p class="text-3xl font-bold text-[#570F0F]">Rp 99.000</p>
-                        <p class="text-xs text-[#6B4423] mt-1">/Tahun</p>
+                        <p class="text-3xl font-bold text-[#570F0F]">Rp 9.900</p>
+                        <p class="text-xs text-[#6B4423] mt-1">/Bulan <span class="text-xs">(Bayar Tahunan)</span></p>
                     </div>
                 </div>
 
-                <a href="https://wa.me/6287739094119?text=Halo%20OrderSip!%20Saya%20tertarik%20dengan%20*Paket%20Basic%20(Rp%2099.000/tahun)*.%20Boleh%20dibantu%20untuk%20proses%20pendaftaran%20dan%20pembuatan%20websitenya%20ya%3F%20%F0%9F%98%8A"
-                    target="_blank"
-                    class="mx-auto mb-8 inline-flex items-center justify-center rounded-[999px]
-                            bg-[#570F0F] text-white text-xs font-semibold px-6 py-2">
-                        Mulai sekarang
+                <a href="https://wa.me/6287739094119?text=Halo%20OrderSip!%20Saya%20tertarik%20dengan%20*Paket%20Basic%20(Rp%2099.000/tahun)*.%20Mohon%20bantu%20proses%20pendaftaran%20dan%20pembuatan%20websitenya%20ya%20😊"
+                target="_blank"
+                class="mx-auto mb-8 inline-flex items-center justify-center rounded-[999px]
+                        bg-[#570F0F] text-white text-xs font-semibold px-6 py-2">
+                    Mulai sekarang
                 </a>
 
                 <div class="border-t border-[#EED7C5] pt-5 mt-auto">
                     <p class="text-xs font-semibold text-[#570F0F] mb-3">FITUR YANG DIDAPAT:</p>
                     <ul class="space-y-2 text-xs text-[#6B4423]">
-                        <li>• Subdomain Gratis</li>
-                        <li>• Max. 30 Menu</li>
-                        <li>• Integrasi WhatsApp auto template</li>
+                        <li>• Semua fitur Paket Gratis</li>
+                        <li>• Max Menu 10</li>
                         <li>• Profil usaha lengkap</li>
+                        <li>• Integrasi WhatsApp auto-template</li>
                         <li>• Review pelanggan tak terbatas</li>
+                        <li>• Upload foto produk HD</li>
                         <li>• Support WhatsApp 12 jam</li>
+                        <li>• Statistik basic (klik WhatsApp, kunjungan harian)</li>
+                        <li>• Tanpa watermark</li>
                     </ul>
                 </div>
             </div>
 
-            {{-- Paket Pro --}}
-            <div
-                class="bg-[#570F0F] rounded-[30px] px-8 pt-8 pb-10 shadow-lg border border-[#570F0F]
-                       flex flex-col relative lg:scale-[1.03]">
-                <div
-                    class="absolute -top-4 right-8 bg-[#F5E1CF] text-[#570F0F] text-xs font-semibold
-                           px-4 py-1 rounded-full shadow">
+            {{-- Paket Standard (Populer) --}}
+            <div class="bg-[#570F0F] rounded-[30px] px-8 pt-8 pb-10 shadow-lg border border-[#570F0F]
+                        flex flex-col relative lg:scale-[1.03]">
+
+                <div class="absolute -top-4 right-8 bg-[#F5E1CF] text-[#570F0F] text-xs font-semibold
+                            px-4 py-1 rounded-full shadow">
                     Populer
                 </div>
 
                 <div class="mb-8">
-                    <p class="text-sm font-semibold text-white mb-1">Paket Pro</p>
+                    <p class="text-sm font-semibold text-white mb-1">Paket Standard</p>
                     <p class="text-xs text-transparent">.</p>
 
                     <div class="mt-6">
-                        <p class="text-3xl font-bold text-white">Rp 199.000</p>
-                        <p class="text-xs text-[#F5E1CF] mt-1">/Tahun</p>
+                        <p class="text-3xl font-bold text-white">Rp 16.500</p>
+                        <p class="text-xs text-[#F5E1CF] mt-1">/Bulan <span class="text-xs">(Bayar Tahunan)</span></p>
                     </div>
                 </div>
 
-                <a href="https://wa.me/6287739094119?text=Halo%20OrderSip!%20Saya%20tertarik%20mengambil%20*Paket%20Pro%20(Rp%20199.000/tahun)*.%20Saya%20ingin%20membuat%20website%20usaha%20dengan%20tampilan%20premium.%20Boleh%20info%20langkah-langkah%20selanjutnya%20ya%3F%20%F0%9F%99%8F%F0%9F%98%8A"
-                    target="_blank"
-                    class="mx-auto mb-8 inline-flex items-center justify-center rounded-[999px]
-                            bg-white text-[#570F0F] text-xs font-semibold px-6 py-2">
-                        Mulai sekarang
+                <a href="https://wa.me/6287739094119?text=Halo%20OrderSip!%20Saya%20ingin%20mengambil%20*Paket%20Standard%20(Rp%20199.000/tahun)*.%20Mohon%20arahannya%20untuk%20proses%20pembuatan%20website%20ya%20🙏😊"
+                target="_blank"
+                class="mx-auto mb-8 inline-flex items-center justify-center rounded-[999px]
+                        bg-white text-[#570F0F] text-xs font-semibold px-6 py-2">
+                    Mulai sekarang
                 </a>
 
                 <div class="border-t border-white/30 pt-5 mt-auto">
                     <p class="text-xs font-semibold text-white mb-3">FITUR YANG DIDAPAT:</p>
                     <ul class="space-y-2 text-xs text-[#F5E1CF]">
                         <li>• Semua fitur Paket Basic</li>
-                        <li>• Statistik pengunjung lengkap</li>
-                        <li>• Bebas atur tampilan brand</li>
+                        <li>• Menu tidak terbatas</li>
+                        <li>• Custom warna brand</li>
                         <li>• Banner promo & slider header</li>
-                        <li>• Support WhatsApp fast-response</li>
-                        <li>• 3x update major per tahun</li>
+                        <li>• Template landing page premium</li>
+                        <li>• Statistik pengunjung lengkap</li>
+                        <li>• SEO dasar otomatis</li>
+                        <li>• Prioritas support WhatsApp</li>
                     </ul>
                 </div>
             </div>
+
+            {{-- Paket Pro Custom --}}
+            <div class="bg-white border border-[#E4C1AE] rounded-[30px] px-8 pt-8 pb-10 shadow-sm flex flex-col">
+                <div class="mb-8">
+                    <p class="text-sm font-semibold text-[#570F0F] mb-1">Paket Pro (Custom Website)</p>
+                    <p class="text-xs text-[#8B4513]">Sekali bayar</p>
+
+                    <div class="mt-6">
+                        <p class="text-2xl font-bold text-[#570F0F]">Rp 399.000 – 799.000</p>
+                        <p class="text-xs text-[#6B4423] mt-1">Tergantung tingkat kustomisasi</p>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6287739094119?text=Halo%20OrderSip!%20Saya%20tertarik%20dengan%20*Paket%20Pro%20Custom%20(399k–799k)*.%20Saya%20ingin%20konsultasi%20kebutuhan%20website%20untuk%20usaha%20saya.%20Boleh%20dibantu%20ya%20🙏😊"
+                target="_blank"
+                class="mx-auto mb-8 inline-flex items-center justify-center rounded-[999px]
+                        bg-[#570F0F] text-white text-xs font-semibold px-6 py-2">
+                    Konsultasi paket Pro
+                </a>
+
+                <div class="border-t border-[#EED7C5] pt-5 mt-auto">
+                    <p class="text-xs font-semibold text-[#570F0F] mb-3">FITUR YANG DIDAPAT:</p>
+                    <ul class="space-y-2 text-xs text-[#6B4423]">
+                        <li>• Semua fitur Paket Standard</li>
+                        <li>• Domain custom (contoh: tokokamu.com)</li>
+                        <li>• Desain premium sesuai brand</li>
+                        <li>• Setup website oleh tim OrderSip</li>
+                        <li>• 3× update major per tahun</li>
+                        <li>• Banner slider & section tambahan</li>
+                        <li>• Optimasi WhatsApp fast-response</li>
+                        <li>• Konsultasi branding & digitalisasi UMKM</li>
+                        <li>• Backup data bulanan</li>
+                        <li>• Maintenance 1 tahun</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-    </div>
+</div>
 </section>
 
 <!-- FAQ Section -->
